@@ -33,6 +33,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Agile.GPS">
+      <HintPath>..\Agile.GPS.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -52,19 +55,6 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="GPSFunctions\gps2coords.cs" />
-    <Compile Include="GPSFunctions\Parser\Error.cs" />
-    <Compile Include="GPSFunctions\Parser\Field.cs" />
-    <Compile Include="GPSFunctions\Parser\GGA.cs" />
-    <Compile Include="GPSFunctions\Parser\GLL.cs" />
-    <Compile Include="GPSFunctions\Parser\GSA.cs" />
-    <Compile Include="GPSFunctions\Parser\GSV.cs" />
-    <Compile Include="GPSFunctions\Parser\MessageHandler.cs" />
-    <Compile Include="GPSFunctions\Parser\MinimalNmeaPositionNotifier.cs" />
-    <Compile Include="GPSFunctions\Parser\Nmea.cs" />
-    <Compile Include="GPSFunctions\Parser\NmeaMsg.cs" />
-    <Compile Include="GPSFunctions\Parser\RMC.cs" />
-    <Compile Include="GPSFunctions\Parser\Utils.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
