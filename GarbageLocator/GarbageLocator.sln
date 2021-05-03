@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LocationService", "LocationService\LocationService.csproj", "{B7E11328-4E49-45DE-A002-06F12A9EBC96}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Agile.GPS", "..\..\..\..\..\Downloads\Agile.GPS-master\Agile.GPS\Agile.GPS.csproj", "{897FAD52-6793-4F29-B0CA-0588A946A581}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Agile.GPS", "Agile.GPS-master\Agile.GPS\Agile.GPS.csproj", "{897FAD52-6793-4F29-B0CA-0588A946A581}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

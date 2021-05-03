@@ -80,7 +80,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\..\..\..\Downloads\Agile.GPS-master\Agile.GPS\Agile.GPS.csproj">
+    <ProjectReference Include="..\Agile.GPS-master\Agile.GPS\Agile.GPS.csproj">
       <Project>{897fad52-6793-4f29-b0ca-0588a946a581}</Project>
       <Name>Agile.GPS</Name>
     </ProjectReference>
